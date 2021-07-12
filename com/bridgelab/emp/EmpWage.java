@@ -5,8 +5,8 @@ public class EmpWage {
 		int IS_Full_Time = 1;
 		double empCheck = Math.floor(Math.random() * 100) % 2 ;
 		if ( empCheck == IS_Full_Time )
-			System.out.println(" Employee is present");
+			System.out.println(" Employee is present ok");
 		else
-			System.out.println("employee is absent");
+			System.out.println("employee is absent ok");
 	}
 }
